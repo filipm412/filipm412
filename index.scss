@@ -1,0 +1,447 @@
+body {
+    margin: 0;
+}
+#main-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+    #nav {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 40px;
+        background-color: #cccc;
+
+        a {
+            width: 25%;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            font-size: 19px;
+            font-family: sans-serif;
+
+            &:hover {
+                cursor: pointer;
+                background-color: gray;
+            }
+        }
+    }
+    #heading-div {
+        width: 1100px;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        
+
+        div {
+            font-family: sans-serif;
+            width: 100%;
+            height: 50%;
+            line-height: 7.5vh;
+            
+        }
+    }
+    #main-photo {
+        width: 1100px;
+        height: 550px;
+        
+        
+
+        #photo {
+            width: 1100px;
+            height: 500px;
+            background-image: url("https://www.w3schools.com/w3images/coffee.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            
+            
+        }
+        #slide-show {
+            width: 1100px;
+            height: 50px;
+            background-color: #616161;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            
+            
+            
+            a {
+                border: white solid 0.5px;
+                width: 20px;
+                height: 20px;
+                margin-right: 5px;
+
+                &:hover {
+                    background-color: white;
+
+                }  
+            }
+        }   
+    }
+    #what-we-offer {
+        width: 1100px;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        #what-we-offer-1 {
+            width: 300px;
+            height: 8vh;
+            font-family: sans-serif;
+            text-align: center;
+            line-height: 8vh;
+            font-size: 30px;
+            color: #616161;
+        }
+        #what-we-offer-2 {
+            height: 7px;
+            width: 200px;
+            background-color: #616161;
+
+        } 
+    }
+    #gradient {
+        display: flex;
+        flex-direction: row;
+        width: 1100px;
+        height: 15vh;
+
+        .box-1 {
+            width: 25%;
+            height: 18vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+
+            .box-1-heading {
+                font-size: 25px;
+                font-family: sans-serif;
+                margin-left: 20px;
+                margin-top: 30px;
+                width: 100%;
+                height: 25px;
+            }
+            .box-1-text {
+                width: 100%;
+                height: 10vh;
+                margin-left: 20px;
+                margin-top: 20px;
+                justify-content: left;
+                font-size: 18px;
+            }
+        }
+    }
+    #pricing-plans {
+        width: 1100px;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+
+        #pricing-plans-heading {
+            width: 300px;
+            height: 8vh;
+            font-family: sans-serif;
+            text-align: center;
+            line-height: 8vh;
+            font-size: 30px;
+            color: #616161;
+        }
+    }
+    #pricing-plan-main-div {
+        width: 1100px;
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        .pricing-plan-div-2 {
+            width: 32%;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: solid 0.5px gainsboro;
+
+            &:hover {
+                box-shadow: gray 0px 0px 6px 0.3px;
+            }
+
+            .pricing-plan-div-2-heading {
+                width: 100%;
+                height: 10vh;
+                background-color: black;
+                font-family: sans-serif;
+                font-size: 25px;
+                text-align: center;
+                line-height: 10vh;
+                color: white;
+            }
+            .features {
+                width: 100%;
+                height: 5vh;
+                border-bottom: solid gainsboro 0.5px;
+                text-align: center;
+                line-height: 5vh;
+                font-family: sans-serif;
+                font-size: 16px;
+            }
+            .dollar {
+                width: 100%;
+                height: 12vh;
+                border-bottom: 0.5px gainsboro solid;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                .dollar-1 {
+                    width: 100%;
+                    height: 6vh;
+                    font-family: sans-serif;
+                    font-size: 30px;
+                    text-align: center;
+                }
+                .dollar-2 {
+                    font-family: sans-serif;
+                    color: gray;
+                    font-size: 17px;
+                }
+            }
+            .sign-up {
+                width: 30%;
+                height: 50px;
+                background-color: #4caf50;
+                margin-top: 12px;
+                color: white;
+                font-family: sans-serif;
+                font-size: 18px;
+                text-align: center;
+                line-height: 50px;
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: gray;
+                    color: black;
+                }
+            }
+            
+        }
+        
+    }
+    #what-we-offer {
+        width: 1100px;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        #what-we-offer-1 {
+            width: 300px;
+            height: 8vh;
+            font-family: sans-serif;
+            text-align: center;
+            line-height: 8vh;
+            font-size: 30px;
+            color: #616161;
+        }
+        #what-we-offer-2 {
+            height: 7px;
+            width: 200px;
+            background-color: #616161;
+
+        } 
+    }
+    #our-team-main-div {
+        width: 1100px;
+        height: 48vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        .our-team-2 {
+            width: 32%;
+            height: 48vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: solid 0.5px gainsboro;
+            box-shadow: gray 0px 0px 8px 0.5px;
+
+            .our-team-photo {
+                width: 100%;
+                height: 25vh;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .team-member-name {
+                width: 100%;
+                height: 5vh;
+                font-family: sans-serif;
+                font-size: 25px;
+                text-align: left;
+                line-height: 5vh;
+                text-indent: 20px;     
+            }
+            .profession {
+                width: 100%;
+                height: 3vh;
+                font-family: sans-serif;
+                font-size: 17px;
+                color: gray;
+                text-align: left;
+                text-indent: 20px;
+                line-height: 3vh;
+            }
+            .team-member-text {
+                width: 89%;
+                font-family: sans-serif;
+                font-size: 16px;
+                text-align: left;
+                margin-top: 10px;
+            }
+            .team-member-contact {
+                width: 89%;
+                height: 40px;
+                background-color: gainsboro;
+                background-origin: solid 0.5px gainsboro;
+                margin-top: 30px;
+                font-family: sans-serif;
+                font-size: 16px;
+                text-align: center;
+                line-height: 40px;
+                
+                &:hover {
+                    cursor: pointer;
+                    background-color: gray;
+                }
+            }
+
+        }
+    }
+    #what-we-offer {
+        width: 1100px;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+
+        #what-we-offer-1 {
+            width: 300px;
+            height: 8vh;
+            font-family: sans-serif;
+            text-align: center;
+            line-height: 8vh;
+            font-size: 30px;
+            color: #616161;
+        }
+        #what-we-offer-2 {
+            height: 7px;
+            width: 200px;
+            background-color: #616161;
+
+        } 
+    }
+    #contact-div {
+        width: 1100px;
+        height:40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .type-of-form {
+            width: 100%;
+            height: 30px;
+            font-family: sans-serif;
+            font-size: 18px;
+            text-align: left;
+        }
+        form {
+            width: 100%;
+            margin-bottom: 10px;
+            
+            input {
+                width: 100%;
+                height: 30px;
+                border: solid gray 0.5px;
+            }
+            #send:hover {
+                cursor: pointer;
+                background-color: gray;
+                color: white;
+            }
+        }
+        
+  
+    }
+
+   
+
+}
+#footer {
+   display: flex;
+   width: 100%;
+   height: 30vh;
+   justify-content: center;
+   align-items: center;
+   background-color: #f1f1f1;
+   flex-direction: column;
+
+   #footer-name {
+       font-family: sans-serif;
+       font-size: 20px;
+       text-align: center;
+       width: 200px;   
+       margin-bottom: 15px;
+   }
+   #to-the-top {
+       width: 150px;
+       background-color: black;
+       height: 40px;
+       color: white;
+       font-family: sans-serif;
+       font-size: 18px;
+       text-align: center;
+       line-height: 40px;
+       margin-bottom: 15px;
+
+       &:hover {
+           cursor: pointer;
+           background-color: gray;
+           color: black;
+       }
+   }
+   #icon-holder {
+       width: 150px;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: center;
+       height: 50px;
+
+       .social-media {
+           width: 32px;
+           height: 32px;
+           background-position: center;
+           background-repeat: no-repeat;
+       }
+   }
+
+}

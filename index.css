@@ -1,0 +1,403 @@
+body {
+  margin: 0;
+}
+
+#main-div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+#main-div #nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 40px;
+  background-color: #cccc;
+}
+#main-div #nav a {
+  width: 25%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 19px;
+  font-family: sans-serif;
+}
+#main-div #nav a:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+#main-div #heading-div {
+  width: 1100px;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+#main-div #heading-div div {
+  font-family: sans-serif;
+  width: 100%;
+  height: 50%;
+  line-height: 7.5vh;
+}
+#main-div #main-photo {
+  width: 1100px;
+  height: 550px;
+}
+#main-div #main-photo #photo {
+  width: 1100px;
+  height: 500px;
+  background-image: url("https://www.w3schools.com/w3images/coffee.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#main-div #main-photo #slide-show {
+  width: 1100px;
+  height: 50px;
+  background-color: #616161;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#main-div #main-photo #slide-show a {
+  border: white solid 0.5px;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+#main-div #main-photo #slide-show a:hover {
+  background-color: white;
+}
+#main-div #what-we-offer {
+  width: 1100px;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#main-div #what-we-offer #what-we-offer-1 {
+  width: 300px;
+  height: 8vh;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 8vh;
+  font-size: 30px;
+  color: #616161;
+}
+#main-div #what-we-offer #what-we-offer-2 {
+  height: 7px;
+  width: 200px;
+  background-color: #616161;
+}
+#main-div #gradient {
+  display: flex;
+  flex-direction: row;
+  width: 1100px;
+  height: 15vh;
+}
+#main-div #gradient .box-1 {
+  width: 25%;
+  height: 18vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+#main-div #gradient .box-1 .box-1-heading {
+  font-size: 25px;
+  font-family: sans-serif;
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 100%;
+  height: 25px;
+}
+#main-div #gradient .box-1 .box-1-text {
+  width: 100%;
+  height: 10vh;
+  margin-left: 20px;
+  margin-top: 20px;
+  justify-content: left;
+  font-size: 18px;
+}
+#main-div #pricing-plans {
+  width: 1100px;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+#main-div #pricing-plans #pricing-plans-heading {
+  width: 300px;
+  height: 8vh;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 8vh;
+  font-size: 30px;
+  color: #616161;
+}
+#main-div #pricing-plan-main-div {
+  width: 1100px;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+#main-div #pricing-plan-main-div .pricing-plan-div-2 {
+  width: 32%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 0.5px gainsboro;
+}
+#main-div #pricing-plan-main-div .pricing-plan-div-2:hover {
+  box-shadow: gray 0px 0px 6px 0.3px;
+}
+#main-div #pricing-plan-main-div .pricing-plan-div-2 .pricing-plan-div-2-heading {
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+  font-family: sans-serif;
+  font-size: 25px;
+  text-align: center;
+  line-height: 10vh;
+  color: white;
+}
+#main-div #pricing-plan-main-div .pricing-plan-div-2 .features {
+  width: 100%;
+  height: 5vh;
+  border-bottom: solid gainsboro 0.5px;
+  text-align: center;
+  line-height: 5vh;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+#main-div #pricing-plan-main-div .pricing-plan-div-2 .dollar {
+  width: 100%;
+  height: 12vh;
+  border-bottom: 0.5px gainsboro solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#main-div #pricing-plan-main-div .pricing-plan-div-2 .dollar .dollar-1 {
+  width: 100%;
+  height: 6vh;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+#main-div #pricing-plan-main-div .pricing-plan-div-2 .dollar .dollar-2 {
+  font-family: sans-serif;
+  color: gray;
+  font-size: 17px;
+}
+#main-div #pricing-plan-main-div .pricing-plan-div-2 .sign-up {
+  width: 30%;
+  height: 50px;
+  background-color: #4caf50;
+  margin-top: 12px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: center;
+  line-height: 50px;
+}
+#main-div #pricing-plan-main-div .pricing-plan-div-2 .sign-up:hover {
+  cursor: pointer;
+  background-color: gray;
+  color: black;
+}
+#main-div #what-we-offer {
+  width: 1100px;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#main-div #what-we-offer #what-we-offer-1 {
+  width: 300px;
+  height: 8vh;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 8vh;
+  font-size: 30px;
+  color: #616161;
+}
+#main-div #what-we-offer #what-we-offer-2 {
+  height: 7px;
+  width: 200px;
+  background-color: #616161;
+}
+#main-div #our-team-main-div {
+  width: 1100px;
+  height: 48vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+#main-div #our-team-main-div .our-team-2 {
+  width: 32%;
+  height: 48vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 0.5px gainsboro;
+  box-shadow: gray 0px 0px 8px 0.5px;
+}
+#main-div #our-team-main-div .our-team-2 .our-team-photo {
+  width: 100%;
+  height: 25vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#main-div #our-team-main-div .our-team-2 .team-member-name {
+  width: 100%;
+  height: 5vh;
+  font-family: sans-serif;
+  font-size: 25px;
+  text-align: left;
+  line-height: 5vh;
+  text-indent: 20px;
+}
+#main-div #our-team-main-div .our-team-2 .profession {
+  width: 100%;
+  height: 3vh;
+  font-family: sans-serif;
+  font-size: 17px;
+  color: gray;
+  text-align: left;
+  text-indent: 20px;
+  line-height: 3vh;
+}
+#main-div #our-team-main-div .our-team-2 .team-member-text {
+  width: 89%;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: left;
+  margin-top: 10px;
+}
+#main-div #our-team-main-div .our-team-2 .team-member-contact {
+  width: 89%;
+  height: 40px;
+  background-color: gainsboro;
+  background-origin: solid 0.5px gainsboro;
+  margin-top: 30px;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+  line-height: 40px;
+}
+#main-div #our-team-main-div .our-team-2 .team-member-contact:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+#main-div #what-we-offer {
+  width: 1100px;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+#main-div #what-we-offer #what-we-offer-1 {
+  width: 300px;
+  height: 8vh;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 8vh;
+  font-size: 30px;
+  color: #616161;
+}
+#main-div #what-we-offer #what-we-offer-2 {
+  height: 7px;
+  width: 200px;
+  background-color: #616161;
+}
+#main-div #contact-div {
+  width: 1100px;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#main-div #contact-div .type-of-form {
+  width: 100%;
+  height: 30px;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+#main-div #contact-div form {
+  width: 100%;
+  margin-bottom: 10px;
+}
+#main-div #contact-div form input {
+  width: 100%;
+  height: 30px;
+  border: solid gray 0.5px;
+}
+#main-div #contact-div form #send:hover {
+  cursor: pointer;
+  background-color: gray;
+  color: white;
+}
+
+#footer {
+  display: flex;
+  width: 100%;
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+  flex-direction: column;
+}
+#footer #footer-name {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+  width: 200px;
+  margin-bottom: 15px;
+}
+#footer #to-the-top {
+  width: 150px;
+  background-color: black;
+  height: 40px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: center;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+#footer #to-the-top:hover {
+  cursor: pointer;
+  background-color: gray;
+  color: black;
+}
+#footer #icon-holder {
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+#footer #icon-holder .social-media {
+  width: 32px;
+  height: 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*# sourceMappingURL=index.css.map */
